@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.container{
+    height: 100vh;
+    background-color: #13131F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.labelLogin{
+    align-self: start;
+    font-size: 15px;
+}
+
+.tituloLogin{
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: "Anton", sans-serif;
+    color: #517aa6;
+}
+
+.paragrafoLogin{
+    margin-top: 0.5rem;
+    align-self: center;
+    color: #b0aeae;
+    font-family: "Anton", sans-serif;
+}
+
+.buttonLogin{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    background-color: #c2c4c6;
+    color: black;
+    border-radius: 10px;
+}
+
+.inputsLogin {
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #e5e8eb;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.caixaLogin{
+    background-color: #040011;
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    overflow: auto;
+    transition: transform 1s ease;
+}
+
+.caixaLogin.rotacao{
+    transform: rotateY(180deg);
+}
+
+.camposLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: 50%;
+}
+.camposCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: 60%;
+}
+.mensagem{
+    align-self: start;
+    color: red;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    margin-top: 25px;
+}
+.voltarLogin{
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 0;
+}
+.voltarLogin:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100vw;
+    }
+    .caixaLogin{
+        background-color: #040011;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    .tituloLogin{
+        margin-bottom: 0;
+        font-size: 30px;
+        font-family: "Anton", sans-serif;
+        color: #517aa6;
+    }
+}

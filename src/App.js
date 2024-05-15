@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Usuario from './components/User/user.js';
+import AgendaPacientes from './components/Agenda/Agenda.js';
+import React, { useState } from 'react';
 
 function App() {
+  const [cadastrados, setCadastrados] = useState([]);
+  const [incrementId, setIncrementId] = useState(0);
+  const [idLogado, setIdLogado] = useState(0);
+  const [screen, setScreen] = useState('login');
+
+  const buscarUser = () => {
+    for (let i = 0; i < cadastrados.length; i++) {
+      if (cadastrados[i].id === idLogado) {
+        return cadastrados[i];
+      }
+    }
+    return null;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {screen === "login" && (
+        <Usuario setScreen={setScreen} cadastrados={cadastrados} setCadastrados={setCadastrados} setIdLogado={setIdLogado}
+          incrementId={incrementId} setIncrementId={setIncrementId} />
+      )}
+      {screen === 'homePage' && (
+        <AgendaPacientes setScreen={setScreen} cadastrados={buscarUser()} />
+      )}
     </div>
   );
 }
-
 export default App;
