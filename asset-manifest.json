@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/webAgenda-React/static/css/main.ad53f792.css",
+    "main.js": "/webAgenda-React/static/js/main.766b0d73.js",
+    "static/media/perfil.png": "/webAgenda-React/static/media/perfil.8b96678281f16f690ff6.png",
+    "static/media/apagar.png": "/webAgenda-React/static/media/apagar.db662a3b97127f354f91.png",
+    "static/media/mais.png": "/webAgenda-React/static/media/mais.a0162b51b27dcf0fdaf5.png",
+    "static/media/marca-de-verificacao.png": "/webAgenda-React/static/media/marca-de-verificacao.b26e2ccee7ab3aad71c9.png",
+    "static/media/atualizar.png": "/webAgenda-React/static/media/atualizar.33bdc52d7980ecbf27bb.png",
+    "static/media/volte.png": "/webAgenda-React/static/media/volte.6c07d75851f0dbd800e9.png",
+    "static/media/contatos.png": "/webAgenda-React/static/media/contatos.9e96315beca9a0ab72c4.png",
+    "static/media/whatsapp.png": "/webAgenda-React/static/media/whatsapp.29a8e4bf94e92b005237.png",
+    "static/media/lista-de-afazeres.png": "/webAgenda-React/static/media/lista-de-afazeres.88cfdb105edc63225cb4.png",
+    "static/media/excluir.png": "/webAgenda-React/static/media/excluir.353fb6a0dc81a66bcab5.png",
+    "static/media/adicionar-amigo.png": "/webAgenda-React/static/media/adicionar-amigo.943ed75a3d1ac6eb1fbd.png",
+    "index.html": "/webAgenda-React/index.html",
+    "main.ad53f792.css.map": "/webAgenda-React/static/css/main.ad53f792.css.map",
+    "main.766b0d73.js.map": "/webAgenda-React/static/js/main.766b0d73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad53f792.css",
+    "static/js/main.766b0d73.js"
+  ]
+}
